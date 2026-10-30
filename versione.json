@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.3",
+  "versionCode": 5,
+  "versionName": "1.4",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Ora i dati sono condivisi: registrati per partecipare alle uscite. Nuova sezione Dove siamo con la posizione dei partecipanti durante le gite."
+  "note": "Da questa versione l'app si aggiorna da sola: scarica le novità e ti chiede solo di confermare l'installazione."
 }
