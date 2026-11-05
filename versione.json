@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
+  "versionCode": 6,
+  "versionName": "1.5",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Da questa versione l'app si aggiorna da sola: scarica le novità e ti chiede solo di confermare l'installazione."
+  "note": "I sondaggi del gruppo ora compaiono tra le proposte, con il tasto per votare."
 }
