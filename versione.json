@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
+  "versionCode": 11,
+  "versionName": "2.0",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Miglioramenti per gli organizzatori."
+  "note": "Nuova mappa: durante le uscite vedi tutti i partecipanti sulla stessa mappa."
 }
