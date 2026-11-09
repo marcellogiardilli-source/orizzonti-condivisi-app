@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "1.7",
+  "versionCode": 9,
+  "versionName": "1.8",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Miglioramenti per gli organizzatori."
+  "note": "Nel Profilo trovi la versione dell'app e i tuoi consensi per foto, video e posizione."
 }
