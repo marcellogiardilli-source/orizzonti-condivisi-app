@@ -1,6 +1,6 @@
 {
-  "versionCode": 13,
-  "versionName": "2.2",
+  "versionCode": 14,
+  "versionName": "2.3",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: le foto ruotate vengono raddrizzate automaticamente quando le condividi."
+  "note": "Novità: in ogni viaggio l'Area partecipanti con elenco, chat, mappa e foto; e il tasto per ruotare le tue foto."
 }
