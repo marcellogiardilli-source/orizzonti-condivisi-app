@@ -1,6 +1,6 @@
 {
-  "versionCode": 11,
-  "versionName": "2.0",
+  "versionCode": 12,
+  "versionName": "2.1",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Nuova mappa: durante le uscite vedi tutti i partecipanti sulla stessa mappa."
+  "note": "Novità: i nomi sopra i segnalini della mappa e le foto del gruppo nei viaggi, da condividere e sfogliare."
 }
