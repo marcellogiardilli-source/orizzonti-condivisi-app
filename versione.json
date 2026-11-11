@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "2.4",
+  "versionCode": 16,
+  "versionName": "2.5",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: icona e sezione NEWS nella pagina iniziale con i contenuti nuovi o aggiornati."
+  "note": "Novità: mappa delle posizioni più grande, trascinabile e a schermo intero."
 }
