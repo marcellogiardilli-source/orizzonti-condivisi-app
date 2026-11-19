@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Invito – Orizzonti Condivisi</title>
+<meta name="description" content="Sei invitato in Vivere Viaggiando – Orizzonti Condivisi: uscite e viaggi in amicizia, aperti a tutti.">
+<meta property="og:title" content="Sei invitato in Orizzonti Condivisi">
+<meta property="og:description" content="Uscite e viaggi in amicizia, aperti a tutti. Scarica l'app e registrati.">
+<meta property="og:image" content="https://marcellogiardilli-source.github.io/orizzonti-condivisi-app/immagini/logo.png">
+<style>
+  :root { --blu: #13355b; --oro: #e9a21b; --fondo: #f6f4ef; --testo: #1d1d1d; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--fondo); color: var(--testo); }
+  main { max-width: 480px; margin: 0 auto; padding: 32px 16px; text-align: center; }
+  img { width: 120px; height: 120px; }
+  h1 { color: var(--blu); font-size: 1.6rem; margin: 16px 0 8px; }
+  .viaggio { background: #fff; border-radius: 14px; padding: 14px; margin: 16px 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); display: none; }
+  .viaggio b { display: block; font-size: 1.1rem; color: var(--blu); }
+  a.btn { display: block; margin: 12px 0; padding: 14px; border-radius: 28px; font-weight: 700; text-decoration: none; }
+  .primario { background: var(--blu); color: #fff; }
+  .secondario { background: #fff; color: var(--blu); border: 2px solid var(--blu); }
+  ol { text-align: left; line-height: 1.5; }
+  small { color: #666; }
+</style>
+</head>
+<body>
+<main>
+  <img src="immagini/logo.png" alt="Logo Orizzonti Condivisi">
+  <h1>Sei invitato!</h1>
+  <p>Vivere Viaggiando – Orizzonti Condivisi: uscite e viaggi in amicizia per conoscere persone nuove, aperti a tutti.</p>
+  <div class="viaggio" id="viaggio"><small>Ti hanno invitato a</small><b id="titolo"></b><span id="quando"></span></div>
+  <a class="btn primario" id="apri" href="#">Apri nell'app</a>
+  <a class="btn secondario" id="scarica" href="https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk">Scarica l'app (Android)</a>
+  <ol>
+    <li>Scarica e installa l'app (Android chiede di consentire l'installazione da questa fonte).</li>
+    <li>Aprila e tocca <b>Registrati come partecipante</b>.</li>
+    <li>Conferma il cellulare con <b>VERIFICA SMS</b>.</li>
+  </ol>
+  <small>Per ora l'app è disponibile solo per Android.</small>
+</main>
+<script>
+  const p = new URLSearchParams(location.search);
+  const id = (p.get('v') || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 64);
+  const percorso = id ? 'viaggio/' + id : 'app';
+  const qui = location.origin + location.pathname;
+  // Se l'app è installata la apre (sul viaggio); altrimenti Chrome torna qui con "scarica=1"
+  const intent = 'intent://' + percorso + '#Intent;scheme=orizzonti;package=it.orizzonticondivisi.app;S.browser_fallback_url=' +
+    encodeURIComponent(qui + '?scarica=1' + (id ? '&v=' + id : '')) + ';end';
+  document.getElementById('apri').href = intent;
+  if (/Android/i.test(navigator.userAgent) && !p.get('scarica')) location.href = intent;
+
+  // Titolo e data del viaggio (solo proposte pubblicate)
+  if (id) {
+    fetch('https://firestore.googleapis.com/v1/projects/viaggiare-93bbf/databases/(default)/documents/viaggi/' + id + '?key=AIzaSyA6DP-dblDMIaG3LxuhgTio3GWthCfP0iM')
+      .then(r => r.ok ? r.json() : null)
+      .then(d => {
+        const f = d && d.fields;
+        if (!f || !f.titolo) return;
+        document.getElementById('titolo').textContent = f.titolo.stringValue || '';
+        const data = (f.dataPartenza && f.dataPartenza.stringValue) || '';
+        if (data) document.getElementById('quando').textContent = new Date(data + 'T12:00:00').toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
+        document.getElementById('viaggio').style.display = 'block';
+      }).catch(() => {});
+  }
+</script>
+</body>
+</html>
