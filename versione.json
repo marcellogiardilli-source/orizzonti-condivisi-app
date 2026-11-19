@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "2.5",
+  "versionCode": 17,
+  "versionName": "2.6",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: mappa delle posizioni più grande, trascinabile e a schermo intero."
+  "note": "Novità: pulsante STAFF su ogni pagina per fare domande o chiedere aiuto allo Staff, con notifica delle risposte."
 }
