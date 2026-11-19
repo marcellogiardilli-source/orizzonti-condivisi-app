@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "2.7",
+  "versionCode": 19,
+  "versionName": "2.8",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: pulsante STAFF più piccolo, in basso a destra e trascinabile dove preferisci."
+  "note": "Novità: condizioni generali di partecipazione e informativa privacy nella registrazione."
 }
