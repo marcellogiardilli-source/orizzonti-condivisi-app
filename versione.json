@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "2.9",
+  "versionCode": 21,
+  "versionName": "2.10",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: verifica del cellulare via SMS, profilo con foto e presentazione, invita un amico."
+  "note": "Novità: corretto il salvataggio della foto e del profilo; nuovo SMS di verifica."
 }
