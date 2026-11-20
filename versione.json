@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "2.11",
+  "versionCode": 23,
+  "versionName": "2.12",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: interessi e dati nel profilo, recensioni dei viaggi, segnala e blocca, immagini a schermo intero, aiuto dallo Staff."
+  "note": "Novità: accedi o registrati con il tuo account Google."
 }
