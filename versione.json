@@ -1,6 +1,6 @@
 {
-  "versionCode": 24,
-  "versionName": "2.13",
+  "versionCode": 25,
+  "versionName": "2.14",
   "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: chat con lo Staff migliorata."
+  "note": "Novità: puoi scrivere allo Staff anche senza account."
 }
