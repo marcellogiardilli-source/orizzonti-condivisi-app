@@ -1,6 +1,6 @@
 {
-  "versionCode": 25,
-  "versionName": "2.14",
-  "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-  "note": "Novità: puoi scrivere allo Staff anche senza account."
+    "versionCode":  26,
+    "versionName":  "2.15",
+    "apkUrl":  "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
+    "note":  "Novità: storia del viaggio sulla mappa, video e fotolibro da condividere."
 }
