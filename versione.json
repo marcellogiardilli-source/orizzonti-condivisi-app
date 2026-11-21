@@ -1,6 +1,6 @@
 {
-    "versionCode":  26,
-    "versionName":  "2.15",
+    "versionCode":  27,
+    "versionName":  "2.16",
     "apkUrl":  "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-    "note":  "Novità: storia del viaggio sulla mappa, video e fotolibro da condividere."
+    "note":  "Novità: logo animato all'apertura, storia del viaggio con le tappe sulla mappa, video con volo dall'alto e anteprima da condividere."
 }
