@@ -1,6 +1,6 @@
 {
-    "versionCode":  27,
-    "versionName":  "2.16",
+    "versionCode":  28,
+    "versionName":  "2.17",
     "apkUrl":  "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-    "note":  "Novità: logo animato all'apertura, storia del viaggio con le tappe sulla mappa, video con volo dall'alto e anteprima da condividere."
+    "note":  "Novità: tappe come Polarsteps con meteo, Mi piace e commenti; video con scorrimento tra le foto; foto del gruppo scaricabili sul telefono."
 }
