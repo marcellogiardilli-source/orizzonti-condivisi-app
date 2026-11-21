@@ -1,6 +1,6 @@
 {
-    "versionCode":  29,
-    "versionName":  "2.18",
+    "versionCode":  30,
+    "versionName":  "2.19",
     "apkUrl":  "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-    "note":  "Novità: video e fotolibro come il Travel Book di Polarsteps, a schermo intero girando il telefono; manuale dello Staff nell'app."
+    "note":  "Novità: il manuale dello Staff si legge a tutto schermo girando il telefono."
 }
