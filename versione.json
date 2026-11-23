@@ -1,6 +1,6 @@
 {
-    "versionCode": 32,
-    "versionName": "2.21",
+    "versionCode": 33,
+    "versionName": "2.22",
     "apkUrl": "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-    "note": "Novità per lo Staff: viaggio Demo ai Mercatini di Natale di Ala e Avio, con tappe, foto e commenti per provare Storia, video e fotolibro."
+    "note": "Novità: video del viaggio più lento con i cartelli delle tappe e transizioni con effetti; sezioni dell'area partecipanti a pagina intera; Video e Fotolibro in cima alla Storia."
 }
