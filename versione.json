@@ -1,6 +1,6 @@
 {
-    "versionCode":  30,
-    "versionName":  "2.19",
+    "versionCode":  31,
+    "versionName":  "2.20",
     "apkUrl":  "https://github.com/marcellogiardilli-source/orizzonti-condivisi-app/releases/latest/download/OrizzontiCondivisi.apk",
-    "note":  "Novità: il manuale dello Staff si legge a tutto schermo girando il telefono."
+    "note":  "Novità: nuovo video di apertura in alta risoluzione con il suono e foto dei partecipanti accanto al nome."
 }
